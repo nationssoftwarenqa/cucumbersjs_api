@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test":  "cucumber-js",
+    "stage": "cucumber-js",
+    "prod":  "cucumber-js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,8 @@
     "@cucumber/cucumber": "^11.2.0",
     "@cucumber/pretty-formatter": "^1.0.1",
     "axios": "^1.7.9",
+    "chi": "^0.0.10",
+    "mocha": "^11.1.0",
     "selenium-webdriver": "^4.27.0",
     "xhr2": "^0.2.1",
     "xmlhttprequest": "^1.8.0"
